@@ -152,6 +152,49 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 
 # S3 Advanced Features
 
+## Prefixes and Delimiters:
+
+- Used for organizing data within S3 buckets, resembling folder structures.
+- Prefixes are strings of characters indicating hierarchy, while delimiters separate prefixes.
+
+## Storage Classes:
+
+- Different options for storing data in S3, including S3 Standard, S3 Infrequent Access, S3 Reduced Redundancy Storage, and Glacier.
+- Vary in availability, redundancy, and cost.
+
+![image](https://github.com/omeatai/src-aws/assets/32337103/8347fdc8-d31f-4829-a434-0d81d08d7dcc)
+
+## Object Lifecycle Management:
+
+- Automates the transition of objects between different storage classes over time based on predefined rules.
+- Helps optimize costs by moving data to the most suitable storage class as per its usage pattern.
+
+## Encryption:
+
+- Server-side Encryption: AWS encrypts objects after upload and decrypts them upon access automatically.
+- Client-side Encryption: Objects are encrypted locally before upload, ensuring security during transit.
+
+## Versioning:
+
+- Enables the storage of multiple versions of objects within S3 buckets.
+- Once enabled, cannot be disabled, but can be suspended to prevent new versions from being created.
+
+## Additional Features:
+
+- Multifactor Authentication Delete (MFA Delete): Requires additional authentication (e.g., code sent to phone) to delete objects, enhancing security.
+- Multipart Upload: Accelerates uploads of large files by splitting them into multiple parts for faster transmission and reassembly.
+- Range GETs: Allows retrieval of specific portions of large files within S3 objects.
+- Cross-Region Replication: Replicates data between S3 buckets in different AWS regions to ensure data durability and availability.
+- Logging and Event Notifications: Logs actions performed on buckets and sends notifications for specified events, facilitating monitoring and management.
+- Understanding these advanced features is crucial for effectively managing and optimizing S3 storage for various use cases and cost-efficiency.
+
+# #END</details>
+
+<details>
+<summary>5. Creating S3 Buckets Lab </summary>
+
+# Creating S3 Buckets Lab
+
 ```x
 
 ```
