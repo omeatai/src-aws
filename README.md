@@ -117,6 +117,8 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 - Snowmobile is a large trailer capable of storing exabytes of data.
 - Snowball Edge can run instances for analytics on-premises before transferring data to AWS.
 
+![image](https://github.com/omeatai/src-aws/assets/32337103/74d73bd8-81bc-4d21-a445-4d92d99aac10)
+
 # #END</details>
 
 <details>
