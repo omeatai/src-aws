@@ -75,9 +75,34 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 # #END</details>
 
 <details>
-<summary>2. D </summary>
+<summary>2. S3 Storage Class Overview </summary>
 
-# D
+# S3 Storage Class Overview
+
+- S3 is an AWS storage service focused on object storage.
+- Objects are stored within buckets, which can hold files or any data chunks.
+- Objects are automatically distributed across at least three Availability Zones for redundancy, except for the 1A class which uses only one zone for lower cost but reduced availability.
+- S3 supports encryption and automatic data classification.
+- Data classification aids in security and management tasks such as moving data to Glacier based on usage patterns.
+- AWS enables direct big data analytics against data stored in S3 buckets without the need for database migration.
+- AWS APIs allow direct integration into applications for uploading data.
+- Amazon Direct Connect establishes VPN connections for data transfer.
+- Storage Gateway synchronizes or replicates local data with S3.
+- Kinesis Firehose facilitates analytical data transfer to S3.
+- Transfer Acceleration speeds up data uploads globally but at increased cost.
+- Snowball, Snowball Edge, and Snowmobile offer scalable solutions for data migration.
+- Snowmobile is a large trailer capable of storing exabytes of data.
+- Snowball Edge can run instances for analytics on-premises before transferring data to AWS.
+- S3 primarily offers object storage, not file storage.
+- Different classes of S3 storage provide varying levels of availability and cost.
+- Choose the appropriate method for data ingestion based on requirements and constraints.
+
+# #END</details>
+
+<details>
+<summary>3. S3 Terminology </summary>
+
+# S3 Terminology
 
 ```x
 
