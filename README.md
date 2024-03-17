@@ -126,6 +126,32 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 
 # S3 Terminology
 
+- Buckets: Containers for storing objects in S3, with a default limit per AWS account.
+- Regions: Geographic locations where buckets are created, affecting data accessibility and latency.
+- Objects: Data stored within buckets, similar to files, but can also include structured data.
+- Keys: Logical names of objects within buckets, analogous to file names.
+- Object URLs: Unique URLs assigned to each object for internet access.
+- Eventual Consistency: Objects may take some time to replicate across availability zones, leading to eventual consistency.
+- Static Website Hosting: S3 is suitable for hosting static websites due to quick access and URL accessibility.
+
+# S3 Operations:
+- Creating and deleting buckets.
+- Writing, reading, and deleting objects.
+- Managing object properties.
+- Listing keys in buckets.
+ 
+# REST Interface (API):
+- Represents S3's API for programming access.
+- Utilizes CRUD operations (Create, Read, Update, Delete) mapped to HTTP methods (PUT, POST, GET, DELETE).
+- Important for developers but less emphasized in architect or designer certifications.
+
+# #END</details>
+
+<details>
+<summary>4. S3 Advanced Features </summary>
+
+# S3 Advanced Features
+
 ```x
 
 ```
