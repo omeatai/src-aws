@@ -85,17 +85,37 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 - S3 supports encryption and automatic data classification.
 - Data classification aids in security and management tasks such as moving data to Glacier based on usage patterns.
 - AWS enables direct big data analytics against data stored in S3 buckets without the need for database migration.
-- AWS APIs allow direct integration into applications for uploading data.
-- Amazon Direct Connect establishes VPN connections for data transfer.
-- Storage Gateway synchronizes or replicates local data with S3.
-- Kinesis Firehose facilitates analytical data transfer to S3.
-- Transfer Acceleration speeds up data uploads globally but at increased cost.
-- Snowball, Snowball Edge, and Snowmobile offer scalable solutions for data migration.
-- Snowmobile is a large trailer capable of storing exabytes of data.
-- Snowball Edge can run instances for analytics on-premises before transferring data to AWS.
 - S3 primarily offers object storage, not file storage.
 - Different classes of S3 storage provide varying levels of availability and cost.
 - Choose the appropriate method for data ingestion based on requirements and constraints.
+
+# Getting Data into S3
+
+## AWS APIs
+
+- AWS APIs allow direct integration into applications for uploading data.
+
+## Amazon Direct Connect
+
+- Amazon Direct Connect establishes VPN connections for data transfer.
+
+## Storage Gateway
+
+- Storage Gateway synchronizes or replicates local data with S3.
+
+## Kinesis Firehose
+
+- Kinesis Firehose facilitates analytical data transfer to S3.
+
+## Transfer Acceleration
+
+- Transfer Acceleration speeds up data uploads globally but at increased cost.
+
+## The Snow Family
+
+- Snowball, Snowball Edge, and Snowmobile offer scalable solutions for data migration.
+- Snowmobile is a large trailer capable of storing exabytes of data.
+- Snowball Edge can run instances for analytics on-premises before transferring data to AWS.
 
 # #END</details>
 
