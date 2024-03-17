@@ -220,6 +220,8 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 - Basic process of creating an S3 bucket involves choosing a unique name, configuring properties, and reviewing settings before creation.
 - Further customization options include exploring bucket properties and enabling features like versioning for data management and security.
 
+## Lab
+
 ![image](https://github.com/omeatai/src-aws/assets/32337103/3a2ce10b-a4e5-4793-8b7b-5819e9c01669)
 ![image](https://github.com/omeatai/src-aws/assets/32337103/4cf9ef63-9e59-44ab-8801-755382a519af)
 ![image](https://github.com/omeatai/src-aws/assets/32337103/b10d28ec-12b6-4bb0-a573-2ca2b79a2bb0)
