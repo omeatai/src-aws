@@ -17,7 +17,7 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 - Glacier
 - CloudFront
 - Elastic Block Store (EBS)
-- Storage Gateway
+- The Storage Gateway 
 - The Snow Family
 - Databases
 
@@ -35,19 +35,27 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 ## CloudFront
 
 - CloudFront optimizes content delivery by caching data near users.
+- CloudFront is about getting the stuff close to your users.
+- It is simply making sure that web information, this kind of data that's accessed frequently by your website visitors, is cached at an Edge location that's near the customer.
 
 ## Elastic Block Store (EBS)
 
 - Elastic Block Store (EBS) provides fast block-level access for instances.
 - Block storage, used with EBS, offers data access similar to local hard drives.
+- Elastic Block Store is the best storage solution to use for your instances when you want those instances to have very fast block-level access rather than object-level access. S3 is object level.
+- It's used on local networks all the time. We use it with ISCSI; internet SCSI, or Fiber channel, et cetera. These are done to connect to storage area networks usually.
+- Basically, what we're doing is, across the network, being able to get access to data in a similar way we do to local hard drives.
+- AWS can use block storage with virtual machines within the AWS Cloud when you use Elastic Block Store, or EBS.
 
-## Storage Gateway
+## The Storage Gateway 
 
-- Storage Gateway enables accessing cloud storage as if it's local.
+- The Storage Gateway enables accessing cloud storage as if it's local.
+- It is basically an appliance that you put on your local network, either a software appliance or a hardware appliance, that acts as a VPN connection into the Amazon Cloud so that you can access your storage as if it's local storage.
 
 ## The Snow Family
 
 - The Snow Family assists in migrating massive data to the cloud.
+- It is a collection of really three primary products that can be used in order to migrate data from your local data stores into the cloud when you have massive amounts of data that you need to move.
 
 ## Databases
 
