@@ -26,6 +26,10 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 - Simple Storage Service (S3) is a primary service for general storage needs.
 - It was one of the first storage services that Amazon ever offered with AWS.
 - File storage, akin to S3 object storage, deals with objects or chunks of information.
+- With file storage, we're dealing with objects, or chunks of information.
+- AWS uses something similar to file storage with S3 called object storage, so they treat a file like an object.
+- File storage is used all the time on our local networks with NAS devices. So, if you've ever connected a network-attached-storage device to your network, even at home, and you put files on there, you are using file-based storage.
+- Now, within that NAS device, you don't actually access it at the allocation vector level, or the block or sector level. Instead, you're dealing with it as a file, or in S3 terminology, as an object.
 
 ## Glacier
 
