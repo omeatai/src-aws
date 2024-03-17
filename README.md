@@ -195,6 +195,51 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 
 # Creating S3 Buckets Lab
 
+- Everything related to Amazon S3 can be managed through the GUI interface of the AWS Management Console.
+
+## Creating a Bucket:
+
+- Navigate to the S3 management console.
+- Click on "Create Bucket".
+- Choose a DNS compliant bucket name, ensuring uniqueness globally across all of Amazon S3.
+- Configure properties such as versioning, logging, tags, encryption, and access permissions.
+- Review the settings and create the bucket.
+
+## Bucket Properties:
+
+- After creating the bucket, explore its properties, including options like versioning, server access logs, static website hosting, object-level logging, default encryption, tags, and more.
+- Properties can be configured both during the creation process and afterward.
+
+## Versioning:
+
+- Enable versioning to store multiple versions of objects in the bucket.
+- Once enabled, versioning cannot be disabled; it can only be suspended.
+
+## Conclusion:
+
+- Basic process of creating an S3 bucket involves choosing a unique name, configuring properties, and reviewing settings before creation.
+- Further customization options include exploring bucket properties and enabling features like versioning for data management and security.
+
+![image](https://github.com/omeatai/src-aws/assets/32337103/3a2ce10b-a4e5-4793-8b7b-5819e9c01669)
+![image](https://github.com/omeatai/src-aws/assets/32337103/4cf9ef63-9e59-44ab-8801-755382a519af)
+![image](https://github.com/omeatai/src-aws/assets/32337103/b10d28ec-12b6-4bb0-a573-2ca2b79a2bb0)
+![image](https://github.com/omeatai/src-aws/assets/32337103/b864b0f6-d911-4382-b5e9-7807a2d0eb60)
+![image](https://github.com/omeatai/src-aws/assets/32337103/a3250eaa-147b-4e2d-9dc3-b2ec53e1c33a)
+![image](https://github.com/omeatai/src-aws/assets/32337103/244157b4-9477-4878-a07a-56b048eb6f8c)
+![image](https://github.com/omeatai/src-aws/assets/32337103/53e0b407-8933-4416-8c81-81c6e88298df)
+![image](https://github.com/omeatai/src-aws/assets/32337103/86c681e9-f71c-4a57-a0a6-8fea87b5fb0e)
+![image](https://github.com/omeatai/src-aws/assets/32337103/bc2b0e52-37bd-4c70-82b4-3dc6104e93a7)
+![image](https://github.com/omeatai/src-aws/assets/32337103/c13b7c2a-412b-42f9-b13b-1fb3d8e60254)
+![image](https://github.com/omeatai/src-aws/assets/32337103/28356447-5458-4e83-8fe0-5e9733167da8)
+![image](https://github.com/omeatai/src-aws/assets/32337103/7df4a408-05c0-4388-abcb-76a202b0b7a2)
+
+# #END</details>
+
+<details>
+<summary>6. S3 Bucket Properties </summary>
+
+# S3 Bucket Properties
+
 ```x
 
 ```
