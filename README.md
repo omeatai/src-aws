@@ -242,9 +242,69 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 
 # S3 Bucket Properties
 
-```x
+## Static Web Hosting:
 
+- Allows hosting a static website within an S3 bucket by uploading HTML, image, and audio files.
+- Can be enabled through the S3 management console, providing a URL for accessing the website.
+- Consider using DNS redirection for a friendlier URL.
+
+## Encryption:
+
+- Two options available: AES and KMS.
+- AES: Keys managed fully by AWS, simpler setup.
+- KMS: Keys managed through Key Management Service, offering more management flexibility.
+- Both options provide server-side encryption for stored objects.
+  
+## Tags:
+- Customizable metadata for organizing and managing buckets.
+- Useful for categorizing buckets based on departments, purposes, etc.
+
+## Permissions:
+
+- Managed at both bucket and object levels.
+- Bucket-level permissions inherited by objects.
+- Account permissions: Control access for the AWS account.
+- Public access: Allows anonymous access with specified permissions (listing, reading, writing).
+- Bucket policy: JSON-based policy for fine-grained access control.
+- CORS (Cross-Origin Resource Sharing): Used for web application frameworks.
+
+## Management:
+- Lifecycle rules: Automate transitions and expiration of objects based on specified criteria (prefixes, tags, storage class transitions, expiration).
+- Replication: Cross-region replication for redundancy and disaster recovery.
+- Analytics, metrics, and inventory: Monitoring and analysis tools for bucket management.
+
+## Conclusion:
+
+- S3 bucket properties play a crucial role in managing objects effectively.
+- Options include hosting static websites, encryption, tagging, permissions management, and lifecycle rules.
+- Understanding and configuring these properties ensures efficient and secure storage and access of objects within S3 buckets.
+
+## POLICY JSON DOCUMENT
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1710784997612",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::marketing-omeatai"
+    }
+  ]
+}
 ```
+
+## [https://awspolicygen.s3.amazonaws.com/policygen.html](https://awspolicygen.s3.amazonaws.com/policygen.html)
+
+![image](https://github.com/omeatai/src-aws/assets/32337103/dbca9abe-064d-40e1-9ee7-ce7a94902147)
+
+# #END</details>
+
+<details>
+<summary>7. S3 managing Objects Lab </summary>
+
+# S3 managing Objects Lab
 
 ```x
 
