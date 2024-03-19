@@ -396,6 +396,41 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 
 # Setting up Glacier Vault Lab 
 
+## Creating a Glacier Vault:
+
+- Navigate to the Glacier Management Console within the AWS Services Interface.
+- Choose "Create Vault" to begin setting up a new vault.
+- Select the AWS region where the vault will be located.
+- Provide a name for the vault, such as "My Archive Vault," and proceed to the next step.
+
+## Event Notifications:
+
+- Decide whether to enable event notifications for the vault.
+- Options include creating a new SNS topic, using an existing SNS topic, or not enabling notifications.
+
+## Review and Submission:
+
+- Review the summary of vault configuration.
+- Click "Submit" to create the vault.
+
+## Vault Management:
+
+- Once the vault is created, view information about the vault, including its region, creation date, ARN, and status.
+- Configure permissions, vault locks, and tags for the vault as needed.
+
+## Data Storage and Retrieval:
+
+- Upload files to the vault using various methods, such as Storage Gateway, application APIs, or the command-line interface.
+- Define retrieval policies for the vault, including options like free tier only, max retrieval rate, or no retrieval limit.
+- After setting up the vault and configuring its properties, users can begin storing data in Glacier, where files are referred to as archives.
+
+# #END</details>
+
+<details>
+<summary>10. S3 and Tape Gateway </summary>
+
+# S3 and Tape Gateway
+
 ```x
 
 ```
