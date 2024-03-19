@@ -7,9 +7,9 @@
 ### +AWS Certified Solutions Architect - Associate (SAA-C03) Cert Prep: 2 Storage Design
 
 <details>
-<summary>1. Storage Services </summary>
+<summary>1. AWS Storage Services </summary>
 
-# Storage Services
+# AWS Storage Services
 
 AWS offers a variety of storage services, requiring understanding to choose the right ones.
 
