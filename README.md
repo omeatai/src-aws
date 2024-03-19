@@ -355,6 +355,47 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 
 # AWS Glacier
 
+## Glacier Overview:
+
+- Glacier is an archival data storage solution provided by AWS.
+- Designed for storing data that is not frequently accessed, often referred to as "cold data."
+- Offers significantly lower storage costs compared to active storage solutions.
+- Provides three access methods: expedited (3-5 minutes), standard (3-5 hours), and bulk (5-12 hours), with varying costs.
+
+## Integration with S3:
+
+- Glacier can be integrated with Amazon S3 as a storage class.
+- S3 cold data can be automatically moved to Glacier using lifecycle rules.
+
+## Data Import:
+
+- Snow devices can be used to import large amounts of data into Glacier.
+- Storage Gateways provide connectivity to Glacier for backup and archiving purposes.
+  
+## Key Concepts:
+
+- Archives: Data stored in Glacier, analogous to objects in S3.
+- Vaults: Containers used to store archives, replacing buckets in S3.
+- Vault Locks: Security measures to restrict access to vaults and prevent unauthorized retrieval.
+  
+## Data Retrieval:
+
+- Up to 5% of data retrieval is free each month, without rollover.
+- Vaults can be configured to limit retrieval costs and control access to data.
+- Decision-making processes should be established to ensure cost-effective use of Glacier, especially for large data retrievals.
+
+## Conclusion:
+
+- Glacier offers a cost-effective solution for storing archival data.
+- Proper planning and management are essential to optimize costs and control access to data.
+
+# #END</details>
+
+<details>
+<summary>9. Setting up Glacier Vault Lab </summary>
+
+# Setting up Glacier Vault Lab 
+
 ```x
 
 ```
