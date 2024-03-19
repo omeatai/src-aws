@@ -424,6 +424,15 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 - Define retrieval policies for the vault, including options like free tier only, max retrieval rate, or no retrieval limit.
 - After setting up the vault and configuring its properties, users can begin storing data in Glacier, where files are referred to as archives.
 
+## Lab
+
+<img width="1100" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/e8b6217d-0bf4-40b6-98e5-72511fcbc481">
+<img width="1093" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/824876df-972b-4020-a321-4e417b893157">
+<img width="1101" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/c6dc4010-c064-43a0-abec-8d78f48036ed">
+<img width="1102" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/cd8db0ca-03ee-405a-a95b-fc6717194d91">
+<img width="1099" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/7794a22d-4c2f-4e65-94c1-b7cb2ce20db3">
+
+
 # #END</details>
 
 <details>
