@@ -431,7 +431,12 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 <img width="1101" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/c6dc4010-c064-43a0-abec-8d78f48036ed">
 <img width="1102" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/cd8db0ca-03ee-405a-a95b-fc6717194d91">
 <img width="1099" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/7794a22d-4c2f-4e65-94c1-b7cb2ce20db3">
-
+<img width="1101" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/5b3f2a80-4751-43cb-8e67-1880be424dc8">
+<img width="1091" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/c839e20e-8978-45dc-b010-117d8dcbd006">
+<img width="1093" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/fb353138-8c82-44ad-8498-cef8112ad10e">
+<img width="1101" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/b4c8f931-870e-4582-b9d0-4c3bf2b23f87">
+<img width="1097" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/41c28e6c-5e1e-40f7-81e4-91c6f07ae6e9">
+<img width="1101" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/cb5db2aa-4df4-4bf3-8835-976288e69cc0">
 
 # #END</details>
 
