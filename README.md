@@ -306,6 +306,55 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 
 # S3 managing Objects Lab
 
+## Creating Folders:
+
+- Folders in S3 are simulated using prefixes and delimiters.
+- You can create "folders" through the S3 management console.
+- Despite being called folders, they are actually objects displayed as folders.
+
+## Uploading Files:
+
+- Use the "Upload" button to add files to the bucket.
+- Files can be uploaded individually or in bulk.
+- Permissions and properties can be configured during the upload process.
+
+## File Properties:
+
+- Properties of uploaded files include encryption, tags, and permissions.
+- Tags can be used for lifecycle management and organization.
+
+## Object Management:
+
+- Objects can be managed individually, including actions like download, rename, delete, etc.
+- Permissions can be set for each object separately.
+
+## Versioning:
+
+- Versioning can be enabled for the bucket.
+- Uploading a new version of a file preserves previous versions.
+- Deleted files are marked for deletion but can be recovered.
+- Features like versioning, folder creation, and object management enhance flexibility and control.
+- S3 provides robust options for organizing, securing, and managing data, surpassing simple file storage solutions like Dropbox.
+
+## Lab
+
+<img width="1093" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/7be01e0b-a236-413e-a8ce-0ef8f4aaea92">
+<img width="1097" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/81faeebb-ad4b-4f96-a4ad-4f5ee464d7b5">
+<img width="1094" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/48ef1440-235f-47c8-9b43-b6f3c55e1aa0">
+<img width="1091" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/f2bf3d2f-192b-4313-9a61-cb2cfed3d900">
+<img width="1100" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/88c9310b-8315-496b-8ed7-8084d2172772">
+<img width="1095" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/4edef75c-ddbe-4a4f-802f-85348fdface3">
+<img width="1096" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/91a3a259-cacd-4e8f-968c-52b77586ca49">
+<img width="1097" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/6f66875d-9347-4225-b4a6-be8d9056f30d">
+<img width="1095" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/6da14c77-b299-4c2b-90e9-117c194cfba0">
+
+# #END</details>
+
+<details>
+<summary>8. AWS Glacier </summary>
+
+# AWS Glacier
+
 ```x
 
 ```
