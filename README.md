@@ -515,6 +515,94 @@ AWS offers a variety of storage services, requiring understanding to choose the 
 <img width="1093" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/e38260ba-3893-48c9-90b1-0774b6b6ab88">
 <img width="1093" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/e0e12ab7-db58-43e8-9a1c-9e28def1fe0d">
 <img width="1095" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/accc6900-1a36-438b-a900-e0a1f7294e75">
+<img width="1089" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/ad9c5dc6-9ee0-4be3-85e1-f308d4af29f7">
+<img width="1096" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/5563a62a-aebf-460d-be86-a510ed3c620a">
+<img width="1093" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/b248ea05-b98d-4cf4-90a8-b3e62649c86c">
+<img width="1095" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/02d6c70d-0115-4d6d-82dc-8b7188476514">
+<img width="1092" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/e7b36f89-67c9-40bf-8bf5-a8946078c75b">
+<img width="1096" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/bd45fdea-c371-4736-b426-213b61280b7b">
+<img width="1094" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/d31033f2-273d-4ae3-a36b-574b9d26f176">
+<img width="1093" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/696bd605-5c11-4254-a909-4564505eab32">
+<img width="1092" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/e6a5d704-0d6b-407c-a784-4970cea289e6">
+<img width="1095" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/0c48549b-2dba-4323-a10b-77df92a28d52">
+<img width="1094" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/44a91329-384f-46b3-839a-772daccf58d1">
+<img width="1096" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/69f9dffa-0a3e-4a5a-80bd-a13136587689">
+<img width="1095" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/673d8fc5-3868-4437-a324-e16845b9fb34">
+<img width="1094" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/ea16495b-758d-40bf-ae17-aa89e5eeb603">
+<img width="1097" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/d50d0007-1c6e-4782-a65d-2de034f3188a">
+<img width="1096" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/5e2aae15-7f4b-4e52-aaab-27f8c9e55472">
+<img width="1093" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/35a57e7d-f372-4b0f-aaf0-584c9d41a370">
+<img width="1094" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/7fe5be29-b33e-4820-b78e-9c19db6f40fc">
+<img width="1090" alt="image" src="https://github.com/omeatai/src-aws/assets/32337103/368dc18b-8a8d-41ef-a480-7a044f74c233">
+
+# #END</details>
+
+<details>
+<summary>12. Elastic Block Store (EBS) </summary>
+
+# Elastic Block Store (EBS)
+
+## Introduction to Elastic Block Store (EBS):
+
+- EBS is a storage technology in AWS used for storing data in instances, analogous to local hard drives in computers.
+- Instances in AWS, which are virtual machines, require storage for data, and EBS provides this capability.
+
+## Types of EBS Volumes:
+
+### Magnetic Volumes:
+
+- Lowest cost option.
+- Slowest performance compared to other types.
+
+### SSD (Solid State Drive) Volumes:
+
+- Faster performance compared to magnetic volumes.
+- Offers two main types: General Purpose SSD and Provisioned IOPS SSD.
+
+### General Purpose SSD:
+
+- Provides a baseline performance level suitable for most applications.
+
+### Provisioned IOPS SSD:
+
+- Offers higher performance with a guaranteed level of IOPS (Input/Output Operations Per Second).
+- Necessary when needing 10,000 or more IOPS.
+
+## Optimization and Management of EBS:
+
+### EBS-Optimized Instances:
+
+- Required to fully utilize the performance capabilities of SSD storage.
+- Ensures that the instance's network bandwidth is dedicated to EBS I/O.
+  
+### Snapshotting:
+
+- Used for data recovery and duplication.
+- Snapshots can be restored to bring an EBS volume back to a previous state or duplicated to create identical volumes for multiple instances.
+
+### Volume Recovery:
+
+- Involves attaching volumes from one instance to another for data access and recovery, similar to plugging in an external hard drive.
+
+### Encryption:
+- Provides volume-level encryption to protect data stored on EBS volumes.
+- Ensures data security and compliance with regulations.
+
+## Conclusion:
+
+- EBS offers various types of volumes catering to different performance requirements and cost considerations.
+- Snapshotting, volume recovery, and encryption are essential features for optimizing and managing EBS volumes effectively in AWS environments.
+
+# #END</details>
+
+<details>
+<summary>13. Creating  </summary>
+
+# Creating
+
+
+
+
 
 
 ```x
